@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App\app.cpp" />
+    <ClCompile Include="App\main.cpp" />
+    <ClCompile Include="App\SimpleController.cpp" />
+    <ClCompile Include="App\SimpleSound.cpp" />
+    <ClCompile Include="App\SimpleSprite.cpp" />
+    <ClCompile Include="App\TextureLoader.cpp" />
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionCheck.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBasic.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene01.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBig.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Custom.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySeeker.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpecial.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBasicRadial.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScenario.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyObstacle.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBasicSatellite.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyObsSatellite.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShooter.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCore.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\app.h" />
+    <ClInclude Include="App\AppSettings.h" />
+    <ClInclude Include="App\main.h" />
+    <ClInclude Include="App\SimpleController.h" />
+    <ClInclude Include="App\SimpleSound.h" />
+    <ClInclude Include="App\SimpleSprite.h" />
+    <ClInclude Include="App\TextureLoader.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Vector.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionCheck.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBasic.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene01.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBig.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Custom.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySeeker.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpecial.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBasicRadial.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScenario.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyObstacle.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GetterInterface.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBasicSatellite.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyObsSatellite.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShooter.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyCore.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0c9704e7-c0d7-43a8-96fe-fd3260d3cc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{a6f030ba-0d1c-4ebc-be6f-5e8764d25751}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
